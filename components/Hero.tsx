@@ -2,7 +2,6 @@ import React from 'react';
 import Link from 'next/link';
 import Image from 'next/image';
 import { ArrowRight, Sparkles, CheckCircle2, TrendingUp, ShieldCheck } from 'lucide-react';
-import heroImg from '@/src/assets/images/hero_web_design_showcase_1786549615718.jpg';
 
 export default function Hero() {
   return (
@@ -83,13 +82,12 @@ export default function Hero() {
                 {/* Hero Showcase Image */}
                 <div className="relative aspect-4/3 w-full bg-[#F1F5F9] overflow-hidden">
                   <Image
-                    src={heroImg}
+                    src="/images/hero-showcase.jpg"
                     alt="Squarespace Web Design & SEO Showcase - Md. Shohan Islam"
                     fill
                     sizes="(max-width: 1024px) 100vw, 500px"
                     className="object-cover group-hover:scale-102 transition-transform duration-500"
                     priority
-                    placeholder="blur"
                   />
                 </div>
 

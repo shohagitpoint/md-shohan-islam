@@ -2,6 +2,7 @@ import React from 'react';
 import type { Metadata } from 'next';
 import { notFound } from 'next/navigation';
 import Link from 'next/link';
+import Image from 'next/image';
 import Header from '@/components/Header';
 import Footer from '@/components/Footer';
 import Breadcrumb from '@/components/Breadcrumb';
@@ -198,8 +199,14 @@ export default async function BlogPostPage({ params }: PageProps) {
               {/* Author & Meta Row */}
               <div className="pt-4 border-t border-[#E5E7EB] flex flex-wrap items-center justify-between gap-4 text-xs text-[#4B5563]">
                 <div className="flex items-center gap-3">
-                  <div className="w-9 h-9 rounded-full bg-[#F0FDFA] border border-[#0F766E]/20 flex items-center justify-center text-[#0F766E] font-bold font-heading">
-                    SI
+                  <div className="relative w-10 h-10 rounded-full overflow-hidden border-2 border-[#0F766E]/30 shrink-0 shadow-2xs">
+                    <Image
+                      src="/images/md-shohan-islam-squarespace-web-designer.jpg"
+                      alt="Md. Shohan Islam"
+                      fill
+                      sizes="40px"
+                      className="object-cover object-top"
+                    />
                   </div>
                   <div>
                     <div className="font-bold text-[#111827]">{post.author.name}</div>

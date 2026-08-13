@@ -1,6 +1,7 @@
 import React from 'react';
 import type { Metadata } from 'next';
 import Link from 'next/link';
+import Image from 'next/image';
 import Header from '@/components/Header';
 import Footer from '@/components/Footer';
 import Breadcrumb from '@/components/Breadcrumb';
@@ -213,6 +214,27 @@ export default function ContactPage() {
                     <p className="text-xs text-[#4B5563]">
                       Prefer direct messaging or quick messaging for initial project inquiries?
                     </p>
+                  </div>
+
+                  {/* SHOHAN PROFILE BADGE */}
+                  <div className="flex items-center gap-3.5 p-3.5 bg-[#FBFBFB] border border-[#E5E7EB] rounded-xl">
+                    <div className="relative w-12 h-12 rounded-full overflow-hidden border-2 border-[#0F766E] shrink-0 shadow-2xs">
+                      <Image
+                        src="/images/md-shohan-islam-squarespace-web-designer.jpg"
+                        alt="Md. Shohan Islam, Squarespace Designer"
+                        fill
+                        sizes="48px"
+                        className="object-cover object-top"
+                      />
+                    </div>
+                    <div>
+                      <div className="font-heading font-bold text-xs text-[#111827]">Md. Shohan Islam</div>
+                      <div className="text-[11px] text-[#0F766E] font-medium">Squarespace Web Designer & SEO Expert</div>
+                      <div className="text-[10px] text-[#4B5563] mt-0.5 flex items-center gap-1">
+                        <span className="w-1.5 h-1.5 rounded-full bg-emerald-500 animate-pulse inline-block"></span>
+                        <span>Available for new client projects</span>
+                      </div>
+                    </div>
                   </div>
 
                   {/* WHATSAPP CTA CARD */}

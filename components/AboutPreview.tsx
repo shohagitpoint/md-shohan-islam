@@ -2,7 +2,6 @@ import React from 'react';
 import Link from 'next/link';
 import Image from 'next/image';
 import { ArrowRight, CheckCircle2 } from 'lucide-react';
-import headshotImg from '@/src/assets/images/regenerated_image_1786379145588.webp';
 
 export default function AboutPreview() {
   return (
@@ -20,10 +19,12 @@ export default function AboutPreview() {
                 {/* Real Professional Headshot Image */}
                 <div className="aspect-4/5 bg-[#F1F5F9] rounded-xl border border-[#E5E7EB] overflow-hidden relative shadow-xs group">
                   <Image
-                    src={headshotImg}
+                    src="/images/md-shohan-islam-squarespace-web-designer.jpg"
                     alt="Md. Shohan Islam, Squarespace Web Designer and SEO Expert"
-                    className="w-full h-full object-cover group-hover:scale-102 transition-transform duration-300"
-                    placeholder="blur"
+                    fill
+                    priority
+                    sizes="(max-width: 1024px) 100vw, 400px"
+                    className="w-full h-full object-cover object-top group-hover:scale-102 transition-transform duration-300"
                   />
                   <div className="absolute top-3 left-3 z-10">
                     <span className="text-xs font-mono font-semibold text-[#0F766E] bg-white/95 backdrop-blur-xs border border-[#0F766E]/20 px-2.5 py-1 rounded-md shadow-2xs">

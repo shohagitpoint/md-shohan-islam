@@ -5,7 +5,6 @@ import Image from 'next/image';
 import Header from '@/components/Header';
 import Footer from '@/components/Footer';
 import Breadcrumb from '@/components/Breadcrumb';
-import headshotImg from '@/src/assets/images/regenerated_image_1786379145588.webp';
 import {
   ArrowRight,
   Layout,
@@ -260,10 +259,12 @@ export default function AboutPage() {
                 <div className="relative mx-auto max-w-md lg:max-w-none">
                   <div className="aspect-4/5 rounded-2xl bg-[#F1F5F9] border border-[#E5E7EB] overflow-hidden shadow-sm group relative">
                     <Image
-                      src={headshotImg}
+                      src="/images/md-shohan-islam-squarespace-web-designer.jpg"
                       alt="Md. Shohan Islam, Squarespace Web Designer and SEO Expert"
-                      className="w-full h-full object-cover group-hover:scale-102 transition-transform duration-300"
-                      placeholder="blur"
+                      fill
+                      priority
+                      sizes="(max-width: 1024px) 100vw, 400px"
+                      className="w-full h-full object-cover object-top group-hover:scale-102 transition-transform duration-300"
                     />
                     <div className="absolute top-4 left-4 z-10 flex items-center justify-between w-[calc(100%-2rem)]">
                       <span className="text-xs font-mono font-semibold text-[#0F766E] bg-white/95 backdrop-blur-xs px-3 py-1 rounded-md border border-[#0F766E]/20 shadow-2xs">
