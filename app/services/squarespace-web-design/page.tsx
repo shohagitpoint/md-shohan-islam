@@ -804,7 +804,7 @@ export default function SquarespaceWebDesignPage() {
                   className="bg-white border border-[#E5E7EB] rounded-xl overflow-hidden flex flex-col justify-between hover:border-[#0F766E]/40 transition-all duration-200 group shadow-xs"
                 >
                   <div>
-                    <div className="aspect-16/10 bg-[#F1F5F9] border-b border-[#E5E7EB] overflow-hidden relative group/img">
+                    <div className="relative w-full h-[220px] bg-[#F1F5F9] border-b border-[#E5E7EB] overflow-hidden group/img">
                       <Image
                         src={`/images/${proj.imageRef}`}
                         alt={`${proj.title} Squarespace Website - Md. Shohan Islam`}

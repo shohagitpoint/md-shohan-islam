@@ -80,7 +80,7 @@ export default function Hero() {
                 </div>
 
                 {/* Hero Showcase Image */}
-                <div className="relative aspect-4/3 w-full bg-[#F1F5F9] overflow-hidden">
+                <div className="relative w-full h-[280px] sm:h-[340px] bg-[#F1F5F9] overflow-hidden">
                   <Image
                     src="/images/hero-showcase.jpg"
                     alt="Squarespace Web Design & SEO Showcase - Md. Shohan Islam"

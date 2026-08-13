@@ -190,7 +190,7 @@ export default function PortfolioGrid() {
               <div>
                 {/* Real Image Frame with Lightbox trigger */}
                 <div 
-                  className="aspect-16/10 bg-[#F1F5F9] border-b border-[#E5E7EB] overflow-hidden relative group/img cursor-pointer"
+                  className="relative w-full h-[220px] bg-[#F1F5F9] border-b border-[#E5E7EB] overflow-hidden group/img cursor-pointer"
                   onClick={() => setSelectedImage(proj)}
                   title="Click to view full image preview"
                 >
@@ -298,7 +298,7 @@ export default function PortfolioGrid() {
             </div>
 
             {/* Modal Image Display */}
-            <div className="relative w-full aspect-16/10 bg-slate-900 overflow-auto">
+            <div className="relative w-full h-[360px] sm:h-[480px] bg-slate-900 overflow-hidden">
               <Image
                 src={`/images/${selectedImage.imageRef}`}
                 alt={`${selectedImage.title} Full Preview - Md. Shohan Islam`}

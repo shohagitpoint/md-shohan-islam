@@ -47,7 +47,7 @@ export default function CaseStudyCard({ caseStudy }: CaseStudyCardProps) {
           </div>
 
           {/* Real Project Image Banner */}
-          <div className="aspect-16/9 bg-[#F1F5F9] rounded-xl border border-[#E5E7EB] overflow-hidden relative group/caseimg">
+          <div className="relative w-full h-[220px] bg-[#F1F5F9] rounded-xl border border-[#E5E7EB] overflow-hidden group/caseimg">
             <Image
               src={`/images/${caseStudy.imageRef}`}
               alt={`${caseStudy.title} Squarespace Website Case Study - Md. Shohan Islam`}
