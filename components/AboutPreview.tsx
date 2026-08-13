@@ -17,24 +17,25 @@ export default function AboutPreview() {
               <div className="bg-white border border-[#E5E7EB] rounded-2xl p-4 shadow-sm space-y-4">
                 
                 {/* Real Professional Headshot Image */}
-                <div className="aspect-4/5 bg-[#F1F5F9] rounded-xl border border-[#E5E7EB] overflow-hidden relative shadow-xs group">
+                <div className="relative w-full aspect-[4/5] min-h-[400px] sm:min-h-[440px] bg-[#F1F5F9] rounded-xl border border-[#E5E7EB] overflow-hidden shadow-xs group">
                   <Image
-                    src="/images/md-shohan-islam-squarespace-web-designer.jpg"
+                    src="/images/md-shohan-islam-squarespace-web-designer.png"
                     alt="Md. Shohan Islam, Squarespace Web Designer and SEO Expert"
                     fill
                     priority
-                    sizes="(max-width: 1024px) 100vw, 400px"
-                    className="w-full h-full object-cover object-top group-hover:scale-102 transition-transform duration-300"
+                    sizes="(max-width: 1024px) 100vw, 420px"
+                    className="object-cover object-top group-hover:scale-103 transition-transform duration-500 ease-out"
                   />
                   <div className="absolute top-3 left-3 z-10">
-                    <span className="text-xs font-mono font-semibold text-[#0F766E] bg-white/95 backdrop-blur-xs border border-[#0F766E]/20 px-2.5 py-1 rounded-md shadow-2xs">
+                    <span className="inline-flex items-center gap-1.5 text-xs font-mono font-semibold text-[#0F766E] bg-white/95 backdrop-blur-xs border border-[#0F766E]/20 px-2.5 py-1 rounded-md shadow-2xs">
+                      <span className="w-2 h-2 rounded-full bg-emerald-500 animate-pulse"></span>
                       Md. Shohan Islam
                     </span>
                   </div>
                 </div>
 
                 <div className="text-center">
-                  <p className="text-xs text-[#4B5563]">
+                  <p className="text-xs font-medium text-[#4B5563]">
                     Md. Shohan Islam — Squarespace Web Designer and SEO Expert
                   </p>
                 </div>

@@ -257,17 +257,18 @@ export default function AboutPage() {
               {/* Professional Portrait Frame */}
               <div className="lg:col-span-5">
                 <div className="relative mx-auto max-w-md lg:max-w-none">
-                  <div className="aspect-4/5 rounded-2xl bg-[#F1F5F9] border border-[#E5E7EB] overflow-hidden shadow-sm group relative">
+                  <div className="relative w-full aspect-[4/5] min-h-[400px] sm:min-h-[460px] rounded-2xl bg-[#F1F5F9] border border-[#E5E7EB] overflow-hidden shadow-sm group">
                     <Image
-                      src="/images/md-shohan-islam-squarespace-web-designer.jpg"
+                      src="/images/md-shohan-islam-squarespace-web-designer.png"
                       alt="Md. Shohan Islam, Squarespace Web Designer and SEO Expert"
                       fill
                       priority
-                      sizes="(max-width: 1024px) 100vw, 400px"
-                      className="w-full h-full object-cover object-top group-hover:scale-102 transition-transform duration-300"
+                      sizes="(max-width: 1024px) 100vw, 450px"
+                      className="object-cover object-top group-hover:scale-103 transition-transform duration-500 ease-out"
                     />
                     <div className="absolute top-4 left-4 z-10 flex items-center justify-between w-[calc(100%-2rem)]">
-                      <span className="text-xs font-mono font-semibold text-[#0F766E] bg-white/95 backdrop-blur-xs px-3 py-1 rounded-md border border-[#0F766E]/20 shadow-2xs">
+                      <span className="inline-flex items-center gap-1.5 text-xs font-mono font-semibold text-[#0F766E] bg-white/95 backdrop-blur-xs px-3 py-1 rounded-md border border-[#0F766E]/20 shadow-2xs">
+                        <span className="w-2 h-2 rounded-full bg-emerald-500 animate-pulse"></span>
                         Md. Shohan Islam
                       </span>
                     </div>
