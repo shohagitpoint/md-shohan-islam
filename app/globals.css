@@ -1,0 +1,51 @@
+@import "tailwindcss";
+
+@theme {
+  --color-bg-main: #FBFBFB;
+  --color-surface: #FFFFFF;
+  --color-text-primary: #111827;
+  --color-text-secondary: #4B5563;
+  --color-accent: #0F766E;
+  --color-accent-hover: #0D655E;
+  --color-accent-light: #F0FDFA;
+  --color-border-subtle: #E5E7EB;
+  
+  --font-heading: var(--font-plus-jakarta), system-ui, -apple-system, sans-serif;
+  --font-body: var(--font-inter), system-ui, -apple-system, sans-serif;
+}
+
+@layer base {
+  body {
+    font-family: var(--font-body);
+    background-color: var(--color-bg-main);
+    color: var(--color-text-primary);
+    font-size: 1.0625rem; /* 17px base size */
+    line-height: 1.65;
+  }
+  
+  h1, h2, h3, h4, h5, h6 {
+    font-family: var(--font-heading);
+    letter-spacing: -0.02em;
+  }
+
+  p {
+    font-size: 1.0625rem; /* 17px */
+    line-height: 1.7;
+  }
+}
+
+/* Custom scrollbar & focus ring styles */
+*:focus-visible {
+  outline: 2px solid #0F766E;
+  outline-offset: 2px;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *, ::before, ::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}
+
