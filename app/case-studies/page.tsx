@@ -107,7 +107,7 @@ export default function CaseStudiesPage() {
       id: '01',
       title: 'Red Oak Financial Group — Squarespace Web Design',
       industry: 'Financial & Wealth Management Services',
-      imageRef: 'red-oak-financial-group-squarespace-website.jpg',
+      imageRef: 'red-oak-financial-group-squarespace-website.webp',
       challenge:
         'The client required a clean, trustworthy website presence on Squarespace to present financial planning and wealth management services to prospective B2B and private clients.',
       goals:
@@ -128,7 +128,7 @@ export default function CaseStudiesPage() {
       id: '02',
       title: 'Rick Smith Golf — Personal Brand & Academy Website',
       industry: 'Sports & Personal Branding',
-      imageRef: 'rick-smith-golf-squarespace-website.jpg',
+      imageRef: 'rick-smith-golf-squarespace-website.webp',
       challenge:
         'Present world-renowned golf instructor Rick Smith’s academies, instructional media, and brand philosophy in an organized, mobile-friendly web layout.',
       goals:
@@ -149,7 +149,7 @@ export default function CaseStudiesPage() {
       id: '03',
       title: 'Brilliant Event Planning — Luxury Wedding & Event Planning',
       industry: 'Luxury Event & Wedding Planning',
-      imageRef: 'brilliant-event-planning-squarespace-website.jpg',
+      imageRef: 'brilliant-event-planning-squarespace-website.webp',
       challenge:
         'A high-end wedding planning firm needed an elegant Squarespace website reflecting their luxury brand aesthetic and portfolio of bespoke events.',
       goals:
@@ -170,7 +170,7 @@ export default function CaseStudiesPage() {
       id: '04',
       title: 'Reflections Perfection — Local Mobile Car Detailing',
       industry: 'Automotive & Local Services',
-      imageRef: 'reflections-perfection-squarespace-website.jpg',
+      imageRef: 'reflections-perfection-squarespace-website.webp',
       challenge:
         'A local mobile auto detailing business in Franklin, TN needed a high-converting website to attract nearby vehicle owners and highlight service packages.',
       goals:
@@ -191,7 +191,7 @@ export default function CaseStudiesPage() {
       id: '05',
       title: 'KAN Consultancy — Strategic Management & Corporate Advisory',
       industry: 'Corporate Strategy & Business Advisory',
-      imageRef: 'kan-consultancy-squarespace-website.jpg',
+      imageRef: 'kan-consultancy-squarespace-website.webp',
       challenge:
         'A corporate advisory firm required a professional web presence to communicate executive services, methodology, and corporate consultation packages.',
       goals:
@@ -212,7 +212,7 @@ export default function CaseStudiesPage() {
       id: '06',
       title: 'Next Gen Wash Pros — Soft Wash & Pressure Washing',
       industry: 'Exterior Maintenance & Local Service',
-      imageRef: 'next-gen-wash-pros-squarespace-website.jpg',
+      imageRef: 'next-gen-wash-pros-squarespace-website.webp',
       challenge:
         'An exterior cleaning company needed a high-visibility website for soft washing and pressure washing services in their local service area.',
       goals:
@@ -233,7 +233,7 @@ export default function CaseStudiesPage() {
       id: '07',
       title: 'Peter Cowell — Executive Coaching & Personal Brand',
       industry: 'Executive Coaching & Personal Brand',
-      imageRef: 'peter-cowell-squarespace-website.jpg',
+      imageRef: 'peter-cowell-squarespace-website.webp',
       challenge:
         'An executive coach and consultant required a sleek personal brand website to present coaching programs, speaking topics, and published insights.',
       goals:

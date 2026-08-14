@@ -19,7 +19,7 @@ export default function AboutPreview() {
                 {/* Real Professional Headshot Image */}
                 <div className="relative w-full aspect-[4/5] min-h-[400px] sm:min-h-[440px] bg-[#F1F5F9] rounded-xl border border-[#E5E7EB] overflow-hidden shadow-xs group">
                   <Image
-                    src="/images/regenerated_image_1786628257280.jpg"
+                    src="/images/md-shohan-islam-squarespace-web-designer.webp"
                     alt="Md. Shohan Islam, Squarespace Web Designer and SEO Expert"
                     fill
                     priority

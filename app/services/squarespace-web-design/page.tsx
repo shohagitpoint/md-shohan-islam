@@ -242,7 +242,7 @@ export default function SquarespaceWebDesignPage() {
       type: 'Squarespace Web Design & SEO',
       desc: 'Custom Squarespace 7.1 build for financial planning, structured for client trust, service clarity, and appointment bookings.',
       href: '/case-studies',
-      imageRef: 'red-oak-financial-group-squarespace-website.jpg',
+      imageRef: 'red-oak-financial-group-squarespace-website.webp',
     },
     {
       id: '02',
@@ -251,7 +251,7 @@ export default function SquarespaceWebDesignPage() {
       type: 'Squarespace Design & Personal Branding',
       desc: 'High-impact website for world-renowned golf coach Rick Smith, showcasing instruction academies and media features.',
       href: '/portfolio',
-      imageRef: 'rick-smith-golf-squarespace-website.jpg',
+      imageRef: 'rick-smith-golf-squarespace-website.webp',
     },
     {
       id: '03',
@@ -260,7 +260,7 @@ export default function SquarespaceWebDesignPage() {
       type: 'Squarespace Custom Code & Visual Design',
       desc: 'Editorial website layout for luxury wedding and event design with custom CSS styling and interactive inquiry workflows.',
       href: '/portfolio',
-      imageRef: 'brilliant-event-planning-squarespace-website.jpg',
+      imageRef: 'brilliant-event-planning-squarespace-website.webp',
     },
   ];
 
