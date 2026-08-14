@@ -259,7 +259,7 @@ export default function AboutPage() {
                 <div className="relative mx-auto max-w-md lg:max-w-none">
                   <div className="relative w-full aspect-[4/5] min-h-[400px] sm:min-h-[460px] rounded-2xl bg-[#F1F5F9] border border-[#E5E7EB] overflow-hidden shadow-sm group">
                     <Image
-                      src="/images/md-shohan-islam-squarespace-web-designer.webp"
+                      src="/images/md-shohan-islam-squarespace-website-designer.webp"
                       alt="Md. Shohan Islam, Squarespace Web Designer and SEO Expert"
                       fill
                       priority
