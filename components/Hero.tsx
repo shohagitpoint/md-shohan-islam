@@ -82,7 +82,7 @@ export default function Hero() {
                 {/* Hero Showcase Image */}
                 <div className="relative w-full h-[280px] sm:h-[340px] bg-[#F1F5F9] overflow-hidden">
                   <Image
-                    src="/images/peter-cowell-garden-design-squarespace-website-hero-image.webp"
+                    src="src/assets/images/peter-cowell-garden-design-squarespace-website-hero-image.webp"
                     alt="Squarespace Web Design & SEO Showcase - Md. Shohan Islam"
                     fill
                     sizes="(max-width: 1024px) 100vw, 500px"
