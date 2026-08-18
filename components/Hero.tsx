@@ -72,7 +72,7 @@ export default function Hero() {
                     <span className="w-3 h-3 rounded-full bg-green-400 inline-block"></span>
                   </div>
                   <div className="bg-white border border-[#E5E7EB] rounded-full px-3 py-0.5 text-[11px] text-[#4B5563] font-mono truncate max-w-[220px] shadow-2xs">
-                    🔒 https://shohan.allservix.com
+                    🔒 https://https://petercowell.com/
                   </div>
                   <div className="text-[10px] font-semibold text-[#0F766E] bg-[#F0FDFA] px-2.5 py-0.5 rounded-full border border-[#0F766E]/20">
                     Live Preview
