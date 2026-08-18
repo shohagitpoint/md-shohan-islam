@@ -201,7 +201,7 @@ export default async function BlogPostPage({ params }: PageProps) {
                 <div className="flex items-center gap-3">
                   <div className="relative w-10 h-10 rounded-full overflow-hidden border-2 border-[#0F766E]/30 shrink-0 shadow-2xs">
                     <Image
-                      src="/images/md-shohan-islam-squarespace-web-designer.png"
+                      src="/images/md-shohan-islam-squarespace-web-designer.webp"
                       alt="Md. Shohan Islam"
                       fill
                       sizes="40px"
