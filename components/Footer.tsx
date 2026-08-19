@@ -18,7 +18,7 @@ export default function Footer() {
               </div>
             </div>
             <p className="text-xs leading-relaxed text-[#4B5563]">
-              Professional Squarespace web design, SEO and website optimization services for businesses and personal brands.
+              Hi, I am Md. Shohan Islam, A freelance Squarespace Website Designer & Organic SEO Expert in Bangladesh. I will do Professional Squarespace web design, SEO and website optimization services for businesses and personal brands. Let’s build something amazing together.
             </p>
           </div>
 

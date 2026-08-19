@@ -52,13 +52,13 @@ export default function AboutPreview() {
                 ABOUT SHOHAN
               </span>
               <h2 className="font-heading text-3xl sm:text-4xl font-bold text-[#111827] leading-tight">
-                Best Freelance Squarespace Web Designer & SEO Expert
+                Freelance Squarespace Website Designer & SEO Expert
               </h2>
             </div>
 
             <div className="space-y-4 text-base text-[#4B5563] leading-relaxed">
               <p>
-                A successful website should do more than look polished. It should communicate your value clearly, create confidence in your business and guide visitors toward the right next step.
+                Hello! I’m Md. Shohan Islam, a freelance Squarespace web designer & the youngest seo expert in Bangladesh. I create custom Squarespace website design for small business and Entrepreneurs. A successful website should do more than look polished. It should communicate your value clearly, create confidence in your business and guide visitors toward the right next step.
               </p>
               <p>
                 I combine Squarespace design with practical SEO, usability and performance considerations to create websites that are designed with both people and long-term business goals in mind.

@@ -73,7 +73,7 @@ export default function ServicesSection() {
             WHAT I DO
           </span>
           <h2 className="font-heading text-3xl sm:text-4xl font-bold text-[#111827]">
-            Squarespace Services Built Around Your Business Goals
+            Squarespace Web Design and SEO Services Built Around Your Business Goals
           </h2>
           <p className="text-lg text-[#4B5563]">
             From new website design to redesigns, SEO and technical improvements, I provide focused Squarespace services tailored to the needs of your business.

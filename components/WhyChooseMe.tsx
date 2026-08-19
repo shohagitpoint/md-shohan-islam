@@ -39,8 +39,9 @@ export default function WhyChooseMe() {
             WHY WORK WITH ME
           </span>
           <h2 className="font-heading text-3xl sm:text-4xl font-bold text-[#111827]">
-            Design, SEO And User Experience Working Together
+            Expert Squarespace Website Designer
           </h2>
+          <span>Design, SEO And User Experience Working Together</span>
         </div>
 
         {/* 4 Feature Blocks */}

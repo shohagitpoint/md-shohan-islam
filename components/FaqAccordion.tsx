@@ -47,7 +47,7 @@ export default function FaqAccordion() {
             FAQ
           </span>
           <h2 className="font-heading text-3xl sm:text-4xl font-bold text-[#111827]">
-            Common Questions About Squarespace Web Design
+            Common Questions About Squarespace Web Design and SEO Services
           </h2>
           <p className="text-base text-[#4B5563]">
             Clear answers to help you understand the process, services, and working approach.

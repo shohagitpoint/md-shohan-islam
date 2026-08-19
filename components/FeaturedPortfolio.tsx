@@ -59,7 +59,7 @@ export default function FeaturedPortfolio() {
               SELECTED WORK
             </span>
             <h2 className="font-heading text-3xl sm:text-4xl font-bold text-[#111827]">
-              A Selection Of Website Projects
+              A Selection Of Squarespace Web Design & SEO Portfolio examples
             </h2>
             <p className="text-base text-[#4B5563]">
               Explore selected Squarespace website work and design examples.
