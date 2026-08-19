@@ -24,7 +24,7 @@ const projects: Project[] = [
     industry: 'Financial & Professional Services',
     category: 'Squarespace Web Design',
     tags: ['Squarespace Web Design', 'Squarespace SEO'],
-    imageRef: 'red-oak-financial-group-squarespace-website.webp',
+    imageRef: 'red-oak-financial-group-squarespace-website-design.webp',
     desc: 'Custom Squarespace website design and structure for financial planning and wealth management services, focusing on trust, clear user flow, and professional service presentation.',
     services: ['Squarespace Web Design', 'SEO Structure', 'Responsive UX'],
     caseStudyHref: '/case-studies',
