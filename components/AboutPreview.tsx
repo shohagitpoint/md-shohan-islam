@@ -52,7 +52,7 @@ export default function AboutPreview() {
                 ABOUT SHOHAN
               </span>
               <h2 className="font-heading text-3xl sm:text-4xl font-bold text-[#111827] leading-tight">
-                A Web Designer Who Thinks Beyond Just The Visuals
+                Best Freelance Squarespace Web Designer & SEO Expert
               </h2>
             </div>
 
