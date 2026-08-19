@@ -2,7 +2,7 @@ import { NextResponse } from 'next/server';
 import { Resend } from 'resend';
 
 export async function POST(request: Request) {
-  const targetEmail = process.env.NOTIFICATION_EMAIL || 'shohagitpoint@gmail.com';
+  const targetEmail = process.env.NOTIFICATION_EMAIL || 'shohanitpoint@gmail.com';
 
   try {
     const body = await request.json();
@@ -123,7 +123,7 @@ export async function POST(request: Request) {
     if (emailSent) {
       return NextResponse.json({
         success: true,
-        message: 'Your inquiry has been sent to shohagitpoint@gmail.com! I will review your requirements and follow up within 24 hours.',
+        message: 'Your inquiry has been sent to shohanitpoint@gmail.com! I will review your requirements and follow up within 24 hours.',
       });
     }
 
@@ -131,7 +131,7 @@ export async function POST(request: Request) {
     if (!process.env.RESEND_API_KEY && !process.env.WEB3FORMS_ACCESS_KEY) {
       return NextResponse.json({
         success: true,
-        message: 'Inquiry received and logged! Note: Please set RESEND_API_KEY in Environment Variables to receive email alerts at shohagitpoint@gmail.com.',
+        message: 'Inquiry received and logged! Note: Please set RESEND_API_KEY in Environment Variables to receive email alerts at shohanitpoint@gmail.com.',
         warning: 'RESEND_API_KEY missing in environment variables.',
       });
     }
